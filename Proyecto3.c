@@ -1,17 +1,17 @@
 //Proyecto 3 
-//Ives De La Cruz (6-720-1526)
+
 
 /*
 
 Elabore un programa que inserte y elimine elementos de un arreglo unidimensional de N
 elementos que se encuentre ordenado en forma ascendente. Si el vector ya tiene un
-elemento que iguale al valor que entra, no haga la inserci髇 (es decir no se insertan valores
-repetidos). Imprima el vector actualizado. Imprima el valor y la posici髇 en que se
+elemento que iguale al valor que entra, no haga la inserci贸n (es decir no se insertan valores
+repetidos). Imprima el vector actualizado. Imprima el valor y la posici贸n en que se
 encuentra cada valor. Realice el proceso hasta que el usuario lo desee.
 El vector no tiene que estar cargado con los 20 elementos.
 
 *Estructure su programa con funciones
-*La informaci髇 se imprime en el programa principal.
+*La informaci贸n se imprime en el programa principal.
 *Trabaje el concepto de puntero desplazamiento.
 *Imprima el total de datos repetidos.
 
@@ -20,6 +20,7 @@ El vector no tiene que estar cargado con los 20 elementos.
 #include <stdio.h>
 #include<stdlib.h>
 #define N 20
+
 int out;
 int size;
 int array[N];
@@ -211,7 +212,7 @@ main (){
 	
 	system("COLOR F0");	
 	
-	//Pantalla de presentaci髇
+	//Pantalla de presentaci贸n
 	printf("\n\n\t\t");
 	printf("Universidad tecnologica de Panama");
 	printf("\n\t\t");
